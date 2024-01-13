@@ -1,0 +1,482 @@
+
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* background-color: rgb(255, 255, 255); */
+    
+}
+.head-nav{
+    display: flex;
+    gap: 600px;
+    background-color: antiquewhite;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.social-icons .icon .button{
+    padding: 10px;
+    display: inline-block;
+    border-radius: 70px;
+    width: 280%;
+    /* border: 1px solid rgb(255, 255, 255); */
+    background-color: rgb(194, 187, 187);
+    box-sizing: border-box;
+    box-shadow: 0px 10px 10px rgb(0,0,0,0.4);
+}
+
+.social-icons .icon .button:hover{
+    transition: ease-in-out .3s;
+    background-color: brown;
+    color: #ffff;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.button{
+    /* width: 90px; */
+    margin-left: 5px;
+    /* padding: 2px; */
+}
+
+ul,li{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+
+.intro{
+    text-align: center;
+    margin-top: 250px;
+}
+
+.hi{
+    font-size: 300%;
+    color:gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.name{
+    font-size: 400%;
+    color: brown;
+    text-shadow: 1px solid black;
+}
+
+.position{
+    font-size: 200%;
+    color: rgb(224, 136, 58);
+
+}
+
+.container-1{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.tabs_nav ul li a{
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease-out;
+    color: black;
+}
+
+.tabs_nav ul li:hover a,
+.tabs_nav ul li.active a{
+    color: brown;
+    background: #fff;
+}
+
+.scroll_section{
+    padding: 30px 0;
+    height: 800px;
+}
+
+
+.cv_img{
+    width: 20%;
+    height: 30%;
+    margin-left: 200px;
+    
+    /* border-radius: 50%; */
+    box-shadow: 0px 2px 2px rgb(218, 217, 217);
+
+}
+
+.abt{
+    font-size: 200%;
+    color: brown;
+}
+
+.img{
+    /* margin-left: 300px; */
+    display: flex;
+    gap: 15%;
+    margin-top: 200px;
+
+}
+
+.des{
+    padding:0px 150px 0px 0px;
+    text-align: justify;
+    font-size: 150%;
+}
+.slide1{
+    background-color: rgb(223, 218, 218);
+    width: 100%;
+    align-items: center;
+    /* position: sticky; */
+}
+
+.slide2{
+    background-color: brown;
+    color: #fff;
+    /* position: sticky; */
+}
+
+.con{
+    width: 500%;
+    border-radius: 10%;
+    background-color: #ddd;
+}
+
+.subt{
+    margin-left: 100px;
+    margin-bottom: 100px;
+    color: rgb(224, 136, 58);
+    position: relative;
+}
+
+
+.subt:after{
+    content: "";
+    display: block;
+    width: 1350px;
+    height: 7px;
+    right: 85px;
+    background: rgb(244, 198, 159);
+    box-shadow: 0px 10px 10px rgb(0,0,0,0.3);
+    border-radius: 180%;
+    /* color: black; */
+    /* position: absolute; */
+}
+
+.front{
+    margin-top: 150px;
+    /* display: flex; */
+}
+
+.back{
+    margin-top: 50px;
+}
+
+.skill{
+    display: flex;
+    gap: 400px;
+    margin-left: 150px;
+
+}
+
+.skills{
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10%;
+    color: white;
+}
+
+.html {
+    width: 90%;
+    background-color: brown;
+}
+
+.css{
+    width: 85%;
+    background-color: brown;
+ 
+}
+
+.javascript{
+    width: 80%;
+    background-color: brown;
+}
+
+.python{
+    width: 80%;
+    background-color: brown;
+
+}
+
+.c{
+    width: 75%;
+    background-color: brown;
+}
+
+.java{
+    width: 70%;
+    background-color: brown;
+}
+
+.php{
+    width: 78%;
+    background-color: brown;
+}
+
+.sql{
+    width: 90%;
+    background-color: brown;
+}
+
+.resume{
+    margin-top: 50px;
+    margin-left: 655px;
+    
+}
+
+.res{
+    /* border: 3px solid black; */
+    font-size: 100%;
+    padding: 10px 20px 10px 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: antiquewhite ;
+    color: brown;
+    border-color: brown;
+    border-width: 3px;
+    border-radius: 9%;
+    box-shadow: 0px 10px 10px rgb(0, 0, 0,0.2);
+    font-weight: 700;
+
+}
+
+.res:hover{
+    background-color: white;
+    color: brown;
+    transition: ease-in-out 0.1s;
+    border-color: antiquewhite;
+    box-shadow: 1px 2px 1px solid rgb(255, 255, 255);
+}
+
+.image-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    background: rgba(0,0,0,0.6) ;
+    color: #ffff;
+    flex-direction: column;
+    text-align: center;
+    /* border-radius: 10%; */
+    justify-content: center;
+    display: flex; 
+    opacity: 0;
+    transition: opacity 0.6s;
+
+}
+
+.slide2 .subt{
+    color: antiquewhite;
+}
+
+.pro{
+    /* display: block; */
+    width: 70%;
+    height: 100%;
+    /* border-radius: 10%; */
+    box-shadow: 1px 3px 5px 5px rgb(172, 170, 170);
+    /* margin-left: 100px; */
+}
+
+
+.pro2{
+    width: 70%;
+    height: 100%;
+    box-shadow: 3px 3px 5px 3px rgb(229, 123, 123);
+    
+}
+
+.pro3{
+    width: 70%;
+    height: 100%;
+    box-shadow: 3px 3px 5px 3px rgb(229, 123, 123);
+}
+
+.pradj{
+    /* display: flex; */
+    margin-left: 0px;
+}
+
+.proname{
+    /* margin-left: 10px; */
+    color: brown;
+    font-size: 200%;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    
+}
+/* 
+.proname2{
+    margin-left: 200px;
+    
+} */
+.sec{
+    display: flex;
+}
+
+.place{
+    /* text-align: center; */
+    margin-left: 200px;
+}
+
+.image-overlay >*{
+    transform: translateY(20px);
+    transition: transform 0.6s;
+    
+}
+.image-overlay-blur{
+    backdrop-filter: blur(5px);
+}
+
+.image-overlay:hover{
+    opacity: 1;
+    cursor: pointer;
+    transform: translateY(0px);
+    flex-direction: column-reverse;
+    /* transition: ease-in-out .3s; */
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.ra{
+    position: relative;
+    width: 400px;
+    display: flex;
+    /* margin-left: 200px; */
+    
+}
+
+.ra2{
+    position: relative;
+    width: 400px;
+    display: flex;
+    margin-left: 20px;
+}
+
+.ra3{
+    position: relative;
+    width: 400px;
+    height: 140px;
+    display: flex;
+    margin-left: 20px;
+
+}
+
+.title{
+    font-size: 20px;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 2px solid rgb(0, 0, 0);
+    
+}
+
+.para{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 200px;
+    margin-top: 50px;
+    color: brown;
+}
+
+.first{
+    font-size: 120%;
+}
+
+.thought{
+    font-size: 120%;
+}
+
+.mail{
+    font-size: 15px;
+    border: 2px solid brown;
+    padding:  1px 2px 1px 10px;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    text-align: center;
+    color: black;
+    font-weight: 100;
+    box-shadow: 3px 5px 10px brown;
+}
+
+.mail:hover{
+    background-color:brown;
+    color: #fff;
+    transition: 0.3s;
+    box-shadow: 3px 5px 10px gray;
+}
+.contact{
+    display: flex;
+}
+
+.form{
+    margin-top: 60px;
+    margin-left: 300px;
+    border: 3px solid #ddd ;
+    box-shadow: 0px 3px 10px ;
+    padding: 10px 5px 5px 10px;
+    
+}
+
+.form h2{
+    color: rgb(85, 82, 82);
+}
+
+.form:hover{
+    box-shadow:  5px 10px 10px brown ;
+    transition: 0.5s;
+}
+
+td{
+    padding: 10px 15px 30px 0px;
+    
+}
+
+input{
+    padding: 10px 60px 10px 10px;
+    text-align: left;
+}
+
+textarea{
+    width: 300px;
+    height: 70px;
+}
+
+button{
+    padding: 5px 40px 10px 40px;
+    border-radius: 10%;
+    box-shadow: 0px 10px 10px rgb(0, 0, 0,0.2);
+    background-color: brown;
+    color: #fff;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: antiquewhite;
+    color: brown;
+    transition: 0.3s;
+}
+
+footer{
+    text-align: center;
+    background-color: brown;
+    color: antiquewhite;
+    padding: 3px 5px 5px 5px;
+    margin-top: 105px;
+    width: 100%;
+    /* position: fixed; */
+    
+}
